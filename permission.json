@@ -1,0 +1,89 @@
+[
+  {
+    "project": "project-1",
+    "members": [
+      {
+        "name": "project-1@project-1.iam.gserviceaccount.com",
+        "alias_name": "project-1",
+        "roles": [
+          "roles/bigquery.readsessions.create"
+        ]
+      }
+    ],
+    "service_accounts": [
+      {
+        "account_id": "sa-name",
+        "display_name": "SA",
+        "roles": [
+          "roles/editor"
+        ]
+      }
+    ]
+  },
+  {
+    "project": "project-2",
+    "members": [
+      {
+        "name": "claudia84012345@gmail.com",
+        "alias_name": "Claudia",
+        "roles": [
+          "roles/biquery.dataOwner",
+          "roles/biquery.jobUser",
+          "roles/iam.serviceAccountUser",
+          "roles/viewer"
+        ]
+      }
+    ],
+    "service_accounts": [
+      {
+        "account_id": "sa-name-dev",
+        "display_name": "SA-dev",
+        "roles": []
+      }
+    ]
+  },
+  {
+    "project": "project-3",
+    "members": [
+      {
+        "name": "claudia84012345@gmail.com",
+        "alias_name": "Claudia",
+        "roles": [
+          "roles/biquery.dataOwner",
+          "roles/biquery.jobUser",
+          "roles/iam.serviceAccountUser",
+          "roles/viewer"
+        ]
+      }
+    ],
+    "service_accounts": [
+      {
+        "account_id": "sa-name-dev",
+        "display_name": "SA-dev",
+        "roles": []
+      }
+    ]
+  },
+  {
+    "project": "project-4",
+    "members": [
+      {
+        "name": "claudia84012345@gmail.com",
+        "alias_name": "Claudia",
+        "roles": [
+          "roles/biquery.dataOwner",
+          "roles/biquery.jobUser",
+          "roles/iam.serviceAccountUser",
+          "roles/viewer"
+        ]
+      }
+    ],
+    "service_accounts": [
+      {
+        "account_id": "sa-name-dev",
+        "display_name": "SA-dev",
+        "roles": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+gomplate -d data=file://$(pwd)/permission.json -f main.tf.tpl -o main.tf
